@@ -1,6 +1,7 @@
 # Cavitation Inception Calculation Script
-Author: Mohin Patel  
-Mail: mohin00950@gmail.com
+The script determines the onset of cavitation in a water system by taking inputs of temperature, flowrate, and throat area. It then calculates the cavitation number for a range of flowrates and generates a table of flowrate, cavitation number, and velocity at which cavitation is expected to occur. The script also generates graphs for cavitation number vs flowrate, temperature vs inception velocity, and velocity vs flowrate.
+
+This script can be useful in various fluid engineering applications, such as designing pumps, turbines, and propellers, as well as in predicting the onset of cavitation in various fluid systems. The script has been published on GitHub, making it easily accessible for anyone interested in using it or contributing to its development.
 
 ## Calculation Model Used:
 - Cavitation Number - Euler's Equation
@@ -17,4 +18,8 @@ Mail: mohin00950@gmail.com
   pip install prettytable
 ```
 - Under General Public License (GNU)
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)  
+
+## 🚀 About Me
+Author: Mohin Patel  
+Mail: mohin00950@gmail.com
