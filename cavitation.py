@@ -16,6 +16,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from prettytable import PrettyTable
+import pandas as pd
 
 # Constants
 p1 = 1  # downstream pressure in bar
@@ -142,5 +143,11 @@ plt.ylabel("Velocity (m/s)")
 plt.title("Velocity vs Flow Rate")
 plt.show()
 
+# Create dataframes from tables
+df_table1 = pd.DataFrame(table1._rows, columns=table1.field_names)
+df_table2 = pd.DataFrame(table2._rows, columns=table2.field_names)
 
+# Export dataframes to Excel
+df_table1.to_excel("table1.xlsx", index=False)
+df_table2.to_excel("table2.xlsx", index=False)
 
